@@ -1,5 +1,5 @@
 name: yaru_window_decoration
-description: A new Flutter package project.
+description: An experimental Flutter plugin to create modern looking window decorations (rounded corners, light window border) on Linux, without libhandy.
 version: 0.0.1
 homepage:
 
