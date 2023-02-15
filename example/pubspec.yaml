@@ -1,0 +1,19 @@
+name: yaru_window_decoration_example
+publish_to: "none"
+
+environment:
+  sdk: ">=2.19.2 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  yaru: ^0.5.3
+  yaru_widgets: ^2.1.0
+  yaru_window_decoration:
+    path: ../
+
+dev_dependencies:
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
