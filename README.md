@@ -15,7 +15,7 @@ dependencies:
 
 This package comes with a plugin that loads a custom stylesheet which patch the window decoration shadow and background.
 
-Wrap your app with the `YaruWindowDecoration` widget:
+Then, wrap your app with the `YaruWindowDecoration` widget:
 
 ```dart
 class MyApp extends StatelessWidget {
@@ -28,5 +28,5 @@ class MyApp extends StatelessWidget {
 }
 ```
 
-This widget provide the rounded corners, and the window border.
-It have to be put as soon as possible in the widget tree.
+This widget provides the rounded corners and the window border.
+It must be placed in the widget tree as soon as possible.
