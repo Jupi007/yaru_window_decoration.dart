@@ -16,10 +16,13 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
-      theme: yaruDark,
-      debugShowCheckedModeBanner: false,
-      home: const HomePage(),
+    return YaruTheme(
+      builder: (context, yaru, child) => MaterialApp(
+        theme: yaru.theme,
+        darkTheme: yaru.darkTheme,
+        debugShowCheckedModeBanner: false,
+        home: const HomePage(),
+      ),
     );
   }
 }

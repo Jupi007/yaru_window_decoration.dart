@@ -14,3 +14,15 @@ dependencies:
 
 dev_dependencies:
   flutter_lints: ^2.0.0
+
+flutter:
+  assets:
+    - assets/style.css
+    - assets/style-dark.css
+  plugin:
+    platforms:
+      linux:
+        pluginClass: YaruWindowDecorationPlugin
+
+platforms:
+  linux:

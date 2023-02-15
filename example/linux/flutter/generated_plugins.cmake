@@ -6,6 +6,7 @@ list(APPEND FLUTTER_PLUGIN_LIST
   gtk
   screen_retriever
   window_manager
+  yaru_window_decoration
   yaru_window_linux
 )
 
