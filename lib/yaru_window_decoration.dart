@@ -1,7 +1,4 @@
 library yaru_window_decoration;
 
-/// A Calculator.
-class Calculator {
-  /// Returns [value] plus 1.
-  int addOne(int value) => value + 1;
-}
+export 'src/constants.dart';
+export 'src/yaru_window_decoration.dart';
